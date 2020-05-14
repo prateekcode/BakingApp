@@ -1,0 +1,78 @@
+<resources>
+    <string name="app_name">Baking App</string>
+    <string name="recipe_name">Cheese Cake</string>
+
+    <string name="base_url">https://d17h27t6h515a5.cloudfront.net</string>
+
+    <!-- Label of ShoppingActivity -->
+    <string name="shopping_list">Shopping List</string>
+
+    <string name="step">Step\u0020</string>
+    <string name="servings_label">Servings</string>
+    <string name="ingredients_label">Ingredients</string>
+    <string name="steps_label">Steps</string>
+    <string name="question_mark">�</string>
+    <string name="degree">\u00b0</string>
+    <string name="space">\u0020</string>
+    <string name="of">of</string>
+    <string name="period">.</string>
+    <string name="open_parenthesis">(</string>
+    <string name="close_parenthesis">)</string>
+
+    <!-- String for the type of the media file -->
+    <string name="mp4">mp4</string>
+
+    <!-- Content description for the ImageView and ImageButtion -->
+    <string name="empty_content_description">The image displayed when there are no visual media</string>
+    <string name="bt_previous_content_description">Previous button</string>
+    <string name="bt_next_content_description">Next button</string>
+    <string name="widget_empty_content_description">The chef hat image displayed when the
+        desired recipe is empty</string>
+    <string name="recipe_content_description">The recipe image</string>
+    <string name="add_content_description">The image button that allows the user to add an
+        ingredient to the shopping list</string>
+    <string name="bt_play_content_description">Play button</string>
+    <string name="thumbnail_content_description">The thumbnail of the step</string>
+    <string name="scrim_content_description">The scrim gradient to separate the text from the background</string>
+    <string name="detail_content_description">The recipe image</string>
+
+    <!-- Strings for Notifications -->
+    <string name="pause">pause</string>
+    <string name="play">play</string>
+    <string name="rewind">rewind</string>
+    <string name="fast_forward">fast forward</string>
+    <string name="notification_title">What\'s your cooking style?</string>
+    <string name="notification_text">Check out our recipes.</string>
+    <string name="baking_notification_channel_name">Primary</string>
+
+    <!-- Strings for menu -->
+    <string name="action_shopping">Shopping</string>
+    <!-- Strings for widget -->
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+    <string name="widget_empty_view_text">Click a recipe to display ingredients!</string>
+
+    <!-- Key name for storing the list of ingredients in SharedPreferences -->
+    <string name="pref_ingredient_list_key">pref_ingredient_list</string>
+    <!-- Key name for storing the recipe name in SharedPreferences -->
+    <string name="pref_recipe_name_key">pref_recipe_name</string>
+    <!-- Key name for storing the recipe id in SharedPreferences -->
+    <string name="pref_recipe_id_key">pref_recipe_id</string>
+    <!-- Key name for storing the list of steps in SharedPreferences -->
+    <string name="pref_step_list_key">pref_step_list</string>
+    <!-- Key name for storing servings in SharedPreferences -->
+    <string name="pref_servings_key">pref_servings</string>
+    <!-- Key name for storing the image URL in SharedPreferences -->
+    <string name="pref_image_key">pref_image</string>
+
+    <!-- Snack bar message displayed when a user adds an ingredient to a shopping list -->
+    <string name="snackbar_added">Added to your shopping list</string>
+
+    <!-- Snack bar message that displays the network status -->
+    <string name="snackbar_no_internet">No Internet Connection!</string>
+    <string name="snackbar_connected_internet">Connected to the Internet</string>
+
+    <!-- Text for the empty view displayed when the shopping list is empty -->
+    <string name="empty_view_shopping">You can tap a circle button in the ingredients list
+        to add to your shopping list.</string>
+</resources>

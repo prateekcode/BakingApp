@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+
+    <!-- Colors for the recipe list in the RecipeActivity -->
+    <color name="image_mint">#46D1AA</color>
+    <color name="text_mint">#3CBD9E</color>
+
+    <color name="image_light_green">#9BD66B</color>
+    <color name="text_light_green">#95BF60</color>
+
+    <color name="image_yellow">#FAD35F</color>
+    <color name="text_yellow">#FDAD53</color>
+
+    <color name="image_pink">#ED85BD</color>
+    <color name="text_pink">#D470AA</color>
+
+    <color name="image_light_blue">#4DC6EB</color>
+    <color name="text_light_blue">#38B3DB</color>
+
+    <color name="white">#FFFFFF</color>
+
+    <!-- Background color -->
+    <color name="color_background">#F6F5FF</color>
+    <color name="color_frame_player_bg">#F6E6FA</color>
+
+    <!-- Text color -->
+    <color name="indigo_900_dark">#000051</color>
+    <color name="purple">#AF57E4</color>
+
+    <!-- TabLayout -->
+    <color name="color_tab_indicator">@color/colorPrimaryDark</color>
+    <color name="color_tab_selected_text">@color/colorPrimaryDark</color>
+    <color name="color_tab_text">#9E9E9E</color>
+
+    <!-- The background color of custom playback control (70% opaque black)-->
+    <color name="color_playback_control_bg">#B3000000</color>
+
+    <!-- Gradient scrim color to separate text from the background -->
+    <color name="start_color_gradient">#00000000</color>
+    <color name="center_color_gradient">#00000000</color>
+    <color name="end_color_gradient">#33000000</color>
+</resources>
