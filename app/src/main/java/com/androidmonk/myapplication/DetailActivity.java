@@ -75,7 +75,7 @@ public class DetailActivity extends AppCompatActivity implements StepsFragment.O
             recipe = b.getParcelable(Constant.RECIPE);
             setTitle(recipe.getmName());
         }
-        isTablet =false;
+        isTablet =getResources().getBoolean(R.bool.isTablet);
 
         if(isTablet){
 

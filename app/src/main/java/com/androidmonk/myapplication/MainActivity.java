@@ -20,7 +20,7 @@ import com.androidmonk.myapplication.api.BakingHelper;
 import com.androidmonk.myapplication.model.Recipe;
 import com.androidmonk.myapplication.utils.Constant;
 import com.androidmonk.myapplication.utils.GridAutofitLayoutManager;
-import com.androidmonk.myapplication.utils.IdResource;
+import com.androidmonk.myapplication.utils.SimpleIdlingResource;
 import com.androidmonk.myapplication.widget.RecipeWidgetProvider;
 
 import java.util.List;
@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity implements RecipeAdapter.Rec
     RecyclerView recipesListRecyclerView;
 
     @Nullable
-    private IdResource mIdlingResource;
+    private SimpleIdlingResource mIdlingResource;
 
 
     @Override
@@ -136,7 +136,7 @@ public class MainActivity extends AppCompatActivity implements RecipeAdapter.Rec
     @NonNull
     public IdlingResource getIdlingResource() {
         if (mIdlingResource == null) {
-            mIdlingResource = new IdResource();
+            mIdlingResource = new SimpleIdlingResource();
         }
         return mIdlingResource;
     }

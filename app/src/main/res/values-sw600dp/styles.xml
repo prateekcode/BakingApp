@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <!-- The color of action bar title -->
+        <item name="titleTextColor">@color/white</item>
+        <item name="actionBarTheme">@style/ActionBarTheme</item>
+        <item name="colorControlNormal">@color/colorPrimaryDark</item>
+    </style>
+
+    <style name="ActionBarTheme" parent="@style/ThemeOverlay.AppCompat.ActionBar">
+        <!-- The color of up button -->
+        <item name="colorControlNormal">@color/colorPrimaryDark</item>
+    </style>
+
+
+    <!-- Detail activity theme -->
+    <style name="DetailTheme" parent="BaseTheme">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <!-- The color of action bar title -->
+        <item name="titleTextColor">@color/white</item>
+        <!--        <item name="android:homeAsUpIndicator">@color/white</item>-->
+    </style>
+
+
+    <style name="BaseTheme" parent="AppTheme">
+    </style>
+
+
+    <style name="ImageButtonStyle">
+        <item name="android:layout_width">@dimen/size_button</item>
+        <item name="android:layout_height">@dimen/size_button</item>
+        <item name="android:layout_margin">@dimen/margin_button_tablet</item>
+        <item name="android:background">@drawable/step_circle</item>
+    </style>
+</resources>

@@ -43,7 +43,7 @@ dependencies {
     implementation 'com.squareup.retrofit2:retrofit:2.6.0'
     implementation 'com.squareup.retrofit2:converter-gson:2.6.0'
 
-    implementation 'androidx.media:media:1.2.0-alpha02'
+    implementation 'androidx.media:media:1.1.0'
 
     //RecyclerView and CardView
     implementation 'androidx.recyclerview:recyclerview:1.1.0'
